@@ -27,6 +27,6 @@ steps:
     artifactName: 'myWebsiteName'
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'hannahmyAtlas'
-    appName: 'HelloWorld20200930133945'
+    azureSubscription: 'hannah-pipeline-test-publishProfile'
+    appName: 'pipeline-test-webbapp'
     package: '$(System.ArtifactsDirectory)/**/*.zip'
