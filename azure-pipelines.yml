@@ -28,5 +28,5 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'hannahmyAtlas'
-    appName: 'hannah-pwc-deployment-test'
+    appName: 'HelloWorld20200930133945'
     package: '$(System.ArtifactsDirectory)/**/*.zip'
